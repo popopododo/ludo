@@ -1,0 +1,67 @@
+.content {
+    margin-left: 15px;
+    margin-right:15px;
+    /* footer 높이만큼에다가 조금 더 */
+    margin-bottom: 76px; 
+}
+
+.header {
+    width: 100%;
+    height: 77px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.back {
+    width: 57px;
+    height: 57px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("./img/back.png");
+}
+
+.logo {
+    width: 74px;
+    height: 23px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+    background-image: url("./img/LUDO.png");
+    margin:auto;
+}
+
+.notify {
+    width: 57px;
+    height: 57px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-origin: content-box;
+    background-image: url("./img/notification.png");
+}
+
+.trending {
+    width:100%;
+    height:40px;
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.recommendation{
+    width:100%;
+    height:757px;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    background-color: white;
+}
+.footer{
+    width:100%;
+    height:70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:white;
+}

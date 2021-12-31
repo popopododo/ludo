@@ -1,0 +1,71 @@
+<?php
+
+function msg($s, $arg = '') {
+    $msg = array(
+        'item_form_page_title' => '상품 등록',
+        'item_form_step1' => '1. 카테고리',
+        'item_form_step2' => '2. 상세정보',
+        'item_form_step3' => '3. 판매설정',
+        'item_form_cate1' => '1차 카테고리',
+        'item_form_cate_op' => '선택',
+        'item_form_cate1_op1' => '본체',
+        'item_form_cate1_op2' => '게임소프트',
+        'item_form_cate1_op3' => '주변기기',
+        'item_form_cate2' => '2차 카테고리',
+        'item_form_cate2_op1' => '닌텐도',
+        'item_form_cate2_op2' => '플레이스테이션',
+        'item_form_cate2_op3' => '엑스박스',
+        'item_form_cate2_op4' => '기타',
+        'item_form_cate3' => '3차 카테고리',
+        'item_form_cate3_op1' => '스위치',
+        'item_form_cate3_op2' => 'Wii U',
+        'item_form_cate3_op3' => 'Wii',
+        'item_form_cate3_op4' => 'GameCube',
+        'item_form_cate3_op5' => '3DS',
+        'item_form_cate3_op6' => 'DS',
+        'item_form_cate3_op7' => '기타',
+        'item_form_cate4' => '4차 카테고리',
+        'item_form_cate4_op1' => '일반',
+        'item_form_cate4_op2' => '포켓몬스터 레츠고! 피카츄/레츠고! 이브이 한정판',
+        'item_form_cate4_op3' => '슈퍼 스매시브라더스 얼티밋 에디션',
+        'item_form_cate4_op4' => '모여봐요 동물의 숲 에디션',
+        'item_form_cate4_op5' => '포트나이트 스페셜 세트',
+        'item_form_cate4_op6' => '슈퍼마리오 마리오 레드✕블루 세트',
+        'item_form_next_btn' => '다음 단계',
+        'item_form_submit_btn' => '등록',
+        'item_form_close_btn' => '닫기',
+        'item_form_img' => '제품 사진',
+        'item_form_title' => '제목',
+        'item_form_date' => '구입년도',
+        'item_form_product_status' => '제품 상태',
+        'item_form_product_status_op1' => '별로 안좋아요...',
+        'item_form_product_status_op2' => '그럭저럭 괜찮아요',
+        'item_form_product_status_op3' => '아주 좋아요!',
+        'item_form_product_status_op4' => '새 상품이에요!',
+        'item_form_content' => '내용',
+        'item_form_sell_type' => '판매 방식',
+        'item_form_sell_type_fix' => '고정가격',
+        'item_form_sell_type_auction' => '경매',
+        'item_form_sell_price' => '가격',
+        'item_form_sell_price_place' => '최근 300,000원에 거래 되었어요!',
+        'item_form_sell_nego_sw' => '네고요청 허락하기',
+        'item_form_sell_market_price' => '최근 거래 시세 알아보기',
+        'item_form_sell_min_price' => '최소 가격',
+        'item_form_sell_min_price_place' => '0원',
+        'item_form_sell_immediate_price' => '즉시 판매 가격',
+        'item_form_sell_immediate_price_sw' => '즉시 판매 가격 설정하기',
+        'item_form_chart_title' => '스위치 동물의 숲 에디션',
+        'item_form_chart_content' => '<p>- 최근 한달 간 거래 수 : 235회</p>
+                                <p>- 최근 한달 간 거래 평균가 : 326,000원</p>
+                                <p>- 최근 한달 간 거래 최소가 : 270,000원</p>
+                                <p>- 최근 한달 간 거래 최대가 : 315,000원</p>
+                                <br>
+                                <p>- 최근 거래 가격 : 300,000원</p>',
+        
+        'top_item_list_title' => '인기상품',
+        'top_item_list_filter_op1' => '모두',
+        'top_item_list_filter_op2' => '고정가',
+        'top_item_list_filter_op3' => '경매',
+    );
+    return sprintf($msg[$s], $arg);
+}

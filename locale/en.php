@@ -1,0 +1,71 @@
+<?php
+
+function msg($s, $arg = '') {
+    $msg = array(
+            'item_form_page_title' => 'Product Registration',
+            'item_form_step1' => '1. Category',
+            'item_form_step2' => '2. Details',
+            'item_form_step3' => '3. Sales Settings',
+            'item_form_cate1' => '1st Category',
+            'item_form_cate_op' => 'Choose',
+            'item_form_cate1_op1' => 'Console',
+            'item_form_cate1_op2' => 'Gamesoft',
+            'item_form_cate1_op3' => 'Peripheral device',
+            'item_form_cate2' => '2nd Category',
+            'item_form_cate2_op1' => 'Nintendo',
+            'item_form_cate2_op2' => 'PlayStation',
+            'item_form_cate2_op3' => 'Xbox',
+            'item_form_cate2_op4' => 'ETC',
+            'item_form_cate3' => '3rd Category',
+            'item_form_cate3_op1' => 'Switch',
+            'item_form_cate3_op2' => 'Wii U',
+            'item_form_cate3_op3' => 'Wii',
+            'item_form_cate3_op4' => 'GameCube',
+            'item_form_cate3_op5' => '3DS',
+            'item_form_cate3_op6' => 'DS',
+            'item_form_cate3_op7' => 'ETC',
+            'item_form_cate4' => '4th Category',
+            'item_form_cate4_op1' => 'Normal',
+            'item_form_cate4_op2' => "Pokémon Let's Go! Limited Edition",
+            'item_form_cate4_op3' => 'Super Smash Brothers Ultimate Edition',
+            'item_form_cate4_op4' => 'Switch Animal Crossing New Horizons Edition',
+            'item_form_cate4_op5' => 'Fortnite Special Set',
+            'item_form_cate4_op6' => 'Super Mario Mario Red Blue Set',
+            'item_form_next_btn' => 'Next step',
+            'item_form_submit_btn' => 'Submit',
+            'item_form_close_btn' => 'Close',
+            'item_form_img' => 'Product Picture',
+            'item_form_title' => 'Title',
+            'item_form_date' => 'Year of purchase',
+            'item_form_product_status' => 'Product Status',
+            'item_form_product_status_op1' => "It's not very good.",
+            'item_form_product_status_op2' => "It's okay, by the way.",
+            'item_form_product_status_op3' => 'Very good!',
+            'item_form_product_status_op4' => "It's a new product!",
+            'item_form_content' => 'Content',
+            'item_form_sell_type' => 'How to Sell',
+            'item_form_sell_type_fix' => 'Fixed price',
+            'item_form_sell_type_auction' => 'Auction',
+            'item_form_sell_price' => 'Price',
+            'item_form_sell_price_place' => 'It was recently traded at $300!',
+            'item_form_sell_nego_sw' => 'Allowing negotiation',
+            'item_form_sell_market_price' => 'View Price Trend',
+            'item_form_sell_min_price' => 'Minimum price',
+            'item_form_sell_min_price_place' => '$0',
+            'item_form_sell_immediate_price' => 'Immediate selling price',
+            'item_form_sell_immediate_price_sw' => 'Setting the immediately price',
+            'item_form_chart_title' => 'Switch Animal Crossing New Horizons Edition',
+            'item_form_chart_content' => '<p>- Number of transactions in the last month : 235 Times</p>
+                                <p>- Average transaction price in the last month : $326</p>
+                                <p>- The minimum transaction price in the last month : $270</p>
+                                <p>- The highest transaction price in the last month. : $315</p>
+                                <br>
+                                <p>- Recent Transaction Price : $300</p>',
+        
+            'top_item_list_title' => 'Top Item List',
+            'top_item_list_filter_op1' => 'All',
+            'top_item_list_filter_op2' => 'Fixed',
+            'top_item_list_filter_op3' => 'Auction',
+    );
+    return sprintf($msg[$s], $arg);
+}
