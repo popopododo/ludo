@@ -1,7 +1,7 @@
 # LUDO: Game Console Auction Platform
----
+
 ## 초기 라이브러리 설정
----
+
 1. 설치 프로그램을 다운로드 받아 실행 https://getcomposer.org/Composer-Setup.exe
 2. 프로젝트 ROOT에서 아래 명령어 실행
 
