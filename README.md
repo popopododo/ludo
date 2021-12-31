@@ -1,4 +1,5 @@
 # LUDO: Game Console Auction Platform
+### 2021 Winter SJSU SVSTIP Project
 
 ## 초기 라이브러리 설정
 
