@@ -16,6 +16,9 @@ composer install
 2. ``static/scss/app.scss``에 scss 작성
 
 ---
+## Presentation
+https://docs.google.com/presentation/d/1IipWp8oLsvskAWFVwLEIqIDU0VgU5C-R/edit?usp=sharing&ouid=101922262429387199603&rtpof=true&sd=true
+
 ## Presentation Video
 1. https://docs.google.com/file/d/1HpTBsi6uJmXwx0Xr_TCBNyil3VCNrUsE/preview
 2. https://docs.google.com/file/d/1T2u-GB7pHu7fMdKovIb91YnKpKdsE-rZ/preview
